@@ -5,6 +5,12 @@
   <version>1.0.0</version>
   <name>Refactoring Excercise</name>
   <description>Code to refactor</description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
   
   <dependencies>
           <dependency>
