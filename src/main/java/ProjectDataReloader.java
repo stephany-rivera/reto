@@ -38,9 +38,9 @@ public abstract class ProjectDataReloader {
      * used for reloading data types more or less often
      */
     protected int reloadsCounter = 0;
-    
+
+
     public static ProjectDataReloader getReloaderForType(Project project) {
-        
         ProjectType type = project.getType();
         if (type.equals(ProjectType.STATIC)) {
             return new StaticProjectDataReloader(project);

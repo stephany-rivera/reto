@@ -3,9 +3,10 @@ public class Project {
     
     private final String name;
     private final ProjectType type;
-    private String projectDetails = "neverUpdated";
-    private String lastUpdateTime = "neverUpdated";
-    private String loginStatistics = "neverUpdated";
+    private static final String NEVER_UPDATE= "neverUpdated";
+    private String projectDetails = NEVER_UPDATE;
+    private String lastUpdateTime = NEVER_UPDATE;
+    private String loginStatistics = NEVER_UPDATE;
     
     public Project(String name, ProjectType type) {
         this.name = name;
